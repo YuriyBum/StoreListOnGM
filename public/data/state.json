@@ -1,0 +1,41 @@
+{
+    "pickPoints": [
+        {
+            "address": "Canadalaan",
+            "budgets": [
+                "Self",
+                "Shipping",
+                "Dressing"
+            ],
+            "latitude": 51.251321,
+            "longitude": 4.421528
+        },
+        {
+            "address": "Hanzestedenplaats 1",
+            "budgets": [
+                "Self"
+            ],
+            "latitude": 51.228654, 
+            "longitude": 4.405264
+        },
+        {
+            "address": "Coquilhatstraat 49",
+            "budgets": [
+                "Shipping",
+                "Dressing",
+                "Showroom"
+            ],
+            "latitude": 51.209429, 
+            "longitude": 4.398513
+        },
+        {
+            "address": "Kielsbroek",
+            "budgets": [
+                "Dressing",
+                "Showroom"
+            ],
+            "latitude": 51.194721, 
+            "longitude": 4.375447
+        }
+    ]
+}
