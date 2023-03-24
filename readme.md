@@ -1,4 +1,4 @@
-Порядок запуска:
+How to get started:
 
 1. Create file .env, as a copy of .env.example
 

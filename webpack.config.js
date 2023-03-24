@@ -2,6 +2,7 @@ const path = require('path');
 const dotenv = require('dotenv')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const Modes = {
     DEVELOPMENT: 'development',
@@ -67,6 +68,11 @@ module.exports = (env, { mode }) => {
                 template: path.join(__dirname, 'src', 'index.html'),
                 favicon: path.join(__dirname, 'src', 'assets/images/favicon.ico'),
             }),
+			new CopyWebpackPlugin({
+            patterns: [
+                { from: 'public' }
+            ]
+            })
         ],
 
         performance: {
